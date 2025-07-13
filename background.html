@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html{
+        height: 5000px;
+    }
+    div{
+        display: inline-block;
+        margin-right: 20px;
+        border: 2px solid black;
+        height: 300px;
+        width: 300px;
+    }
+    .back-image{
+        background-image: url(./boat-7618814_1920.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .linear-gr{
+        background-image: linear-gradient(rgb(238, 18, 194),red,black);
+        color: aliceblue;
+    }
+    .radial-gr{
+        background-image: radial-gradient(rgb(7, 243, 255),blue,black);
+        color: aliceblue;
+    }
+    .conic-gr{
+        background-image: conic-gradient(rgb(6, 243, 6),green,black);
+        color: aliceblue;
+    }
+
+    .relative{
+        background-color: red;
+        position: relative;
+        top: 20px;
+    }
+    .absolute{
+        background-color: yellow;
+        position: absolute;
+        margin-left: 700px;
+    }
+    .fixed{
+        background-color: green;
+        position:fixed;        
+    }
+    .sticky{
+        background-color: blue;
+        position: sticky;
+        top: 500px;
+        margin-left: 350px;
+    }
+   
+</style>
+<body>
+   
+    <div class="back-image"><h1>BACKGROUND IMAGE</h1></div>
+    <div class="linear-gr"><h1>LINEAR GRADIENT</h1></div>
+    <div class="radial-gr"><h1>RADIAL GRADIENT</h1></div>
+    <div class="conic-gr"><h1>CONIC GRADIENT</h1></div>
+    <br><br><br>
+    <div class="relative"><h1>Relative</h1></div>
+    <div class="absolute"><h1>Absolute</h1></div>
+    <div class="fixed"><h1>Fixed</h1></div>
+    <div class="sticky"><h1>Sticky</h1></div>
+
+    
+</body>
+</html>
